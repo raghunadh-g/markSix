@@ -1,0 +1,73 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+:root {
+  --primary-color: #f2c94c;
+  --width: 90%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+}
+
+.heading {
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+main {
+  font-family: "Dancing Script", cursive;
+  max-width: 50%;
+  margin: auto;
+}
+
+#paragraph,
+#outputDiv {
+  display: block;
+  padding: 2rem;
+  width: 100%;
+  margin: 1rem 0rem;
+  font-size: 2rem;
+  opacity: 0.7;
+  height: 7vh;
+}
+
+#paragraph {
+  font-size: 1rem;
+}
+
+#outputDiv {
+  border: 1px solid black;
+}
+
+#btn-primary {
+  background-color: var(--primary-color);
+  font-family: "Dancing Script", cursive;
+  font-size: large;
+  padding: 0.5rem 2rem;
+  margin: 0.7rem 0rem;
+  border: none;
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.footer-header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer-content {
+  max-width: 45%;
+  margin: auto;
+  padding: 1rem;
+  font-size: large;
+}
